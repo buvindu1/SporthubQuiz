@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Buy online sport products</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="buyproduct.css">
+
+
+
+    </head>
+
+    <body>
+        <div class="menu">
+            <ul class="menu-content">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="comment.html">Comments</a></li>
+                <li class="active"><a href="buyproducts page.html">Shop</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="site_map.html">Site Map</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+
+        
+
+            <div class="div1">
+                <h1>Sport shop- Online</h1>
+            </div>
+
+            <div class="div4">
+
+                <div class="div5">
+                    <div class="align">
+                    <img  src="images\images.jpeg" alt="racket">
+                    </div>
+                    <h3 style="text-align: center;">Rackets</h3>
+                    <h3 style="text-align: center;">£ 100 </h3>
+                    <span style="margin-left: 70px;" ><label for="quantity" ><strong>Select amount </strong></label>
+                    <select  name="quant1" id="quantity1" onclick="racketQuantity()" >
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                    
+                </div>
+
+                <div class="div5">
+                    <div class="align" >
+                    <img src="images\images (1).jpeg" alt="shutter">
+                    </div>
+                    <h3 style="text-align: center;">Shutters</h3>
+                    <h3 style="text-align: center;">£ 10 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant2" id="quantity2" onclick="shutterQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+
+                <div class="div5">
+                    <div class="align" >
+                    <img src="images\download.jpeg" alt="tt">
+                    </div>
+                    <h3 style="text-align: center;">T shirts</h3>
+                    <h3 style="text-align: center;">£ 30</h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant3" id="quantity3" onclick="shirtQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+                <div class="qqq" >
+                    
+                    <h3>Your oder:</h3>
+                    
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <p><strong>Orderd items:</strong></p>
+                    <br>
+                    <ul>
+                        <li><span id="demo1"></span><strong><span class="red">×</span></strong> Racket = <span id="total_1"></span> </li>
+                        <br>
+                        <li><span id="demo2"></span><strong><span class="red">×</span></strong> Shutterclock =<span id="total_2"></span> </li>
+                        <br>
+                        <li><span id="demo3"></span><strong><span class="red">×</span></strong> Tshirt =<span id="total_3"></span> </li>
+                        <br>
+                        <li><span id="demo4"></span><strong><span class="red">×</span></strong>Shoes =<span id="total_4"></span></li>
+                        <br>
+                        <li><span id="demo5"></span><strong><span class="red">×</span></strong>Shorts =<span id="total_5"></span></li>
+                        <br>
+                        <li><span id="demo6"></span><strong><span class="red">×</span></strong>Grips =<span id="total_6"></span></li>
+                        <br>
+                        <li><span id="demo7"></span><strong><span class="red">×</span></strong>Swim trunk =<span id="total_7"></span></li>
+                        <br>
+                        <li><span id="demo8"></span><strong><span class="red">×</span></strong>Goggles =<span id="total_8"></span></li>
+                        <br>
+                        <li><span id="demo9"></span><strong><span class="red">×</span></strong>Swim cap =<span id="total_9"></span></li>
+                        <br>
+                </div>
+                
+                <div>
+                    <a href="#"><img src="images\download (1).png" alt="cart" width="50px"height="50px"></a>
+                    <br><br><br><br><br><br><br><br><br>
+                        <li><span id="demo10"></span><strong><span class="red">×</span></strong>Cricket bat =<span id="total_10"></span></li>
+                        <br>
+                        <li><span id="demo11"></span><strong><span class="red">×</span></strong>Helment =<span id="total_11"></span></li>
+                        <br>
+                        <li><span id="demo12"></span><strong><span class="red">×</span></strong>Gloves =<span id="total_12"></span></li>
+                        <br>
+                        <li><span id="demo13"></span><strong><span class="red">×</span></strong>Tennis racket =<span id="total_13"></span></li>
+                        <br>
+                        <li><span id="demo14"></span><strong><span class="red">×</span></strong>Tennis balls =<span id="total_14"></span></li>
+                        <br>
+                        <li><span id="demo15"></span><strong><span class="red">×</span></strong>Sport kit =<span id="total_15"></span></li>
+                        <br>
+                        <li>ExpressDilivery = <span id="add"></span></li>
+                    </ul>
+                    <br>
+                    <h4>Total (£):<span id="total" ></span></h4>
+                   
+                    
+                </div>
+                
+            </div>
+
+            <div class="www">
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (3).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Shoes</h3>
+                    <h3 style="text-align: center;">£ 75 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant4" id="quantity4" onclick="shoesQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                    
+                </div>  
+                <div class="div5">
+                    <div class="align">    
+                    <img src="images\download (2).jpeg" alt="r">
+                    </div>
+                    <h3 style="text-align: center;">Shorts</h3>
+                    <h3 style="text-align: center;">£ 25 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant5" id="quantity5" onclick="shortQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                    
+                </div> 
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (2).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Grips</h3>
+                    <h3 style="text-align: center;">£ 5 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant6" id="quantity6" onclick="gripQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                
+
+            </div>
+
+            <div class="www">
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (4).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Swimming trunk</h3>
+                    <h3 style="text-align: center;">£ 25 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant7" id="quantity7" onclick="swimshortQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\download (5).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Swimming goggles</h3>
+                    <h3 style="text-align: center;">£ 10 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant8" id="quantity8" onclick="goggleQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (5).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Swimming caps</h3>
+                    <h3 style="text-align: center;">£ 5 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant9" id="quantity9" onclick="capQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+                
+            </div>
+
+            <div class="www">
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\download (6).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Cricket bat</h3>
+                    <h3 style="text-align: center;">£ 150 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant10" id="quantity10" onclick="batQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\download (7).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Cricket helment</h3>
+                    <h3 style="text-align: center;">£ 80 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant11" id="quantity11" onclick="helmentQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (6).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Cricket pads</h3>
+                    <h3 style="text-align: center;">£ 40 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant12" id="quantity12" onclick="glovesQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+                
+            </div>
+
+            <div class="www">
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\download (8).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Tennis racket</h3>
+                    <h3 style="text-align: center;">£ 75 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant13" id="quantity13" onclick="tracketQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\download (9).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">TennisBall pack(9)</h3>
+                    <h3 style="text-align: center;">£ 80 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant14" id="quantity14" onclick="gripQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+
+                <div class="div5">
+                    <div class="align">   
+                    <img src="images\images (7).jpeg" alt="r">
+                    </div> 
+                    <h3 style="text-align: center;">Sport kit</h3>
+                    <h3 style="text-align: center;">£ 40 </h3>
+                    <span style="margin-left: 70px;" ></span><label for="quantity"><strong>Select amount</strong></label>
+                    <select name="quant15" id="quantity15" onclick="kitQuantity()">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select></span>
+                </div>
+                
+            </div>
+
+
+
+
+            
+
+            <br>
+            <br>
+            <div class="rr">
+                <label for="name"><strong>Name:</strong></label>
+                <input type="text" name="name" id="name">
+                <label for="conct"><strong>Contact:</strong></label>
+                <input type="tel" name="number" id="conct">
+                <label for="dilivery"><strong>ExpressDelivery</strong></label>
+                <input type="checkbox" onclick="addDeliveryCharge()" name="dilivery" id="dilivery">
+            </div>
+
+            <br>
+            <br>
+            <div>
+                <a href="#"><strong>Jump to bottom</strong> </a>
+            </div>
+
+            <div class="div3">
+
+                <input class="inputbutton"  type="button" onclick="reset()" value="Clear your cart">
+                <a href="checkout.html"><input class="inputbutton" type="button"  value="Place your order"></a>
+
+            </div>
+         
+
+            <script>
+
+                var total= 0;
+                
+                
+                
+                
+                function addDeliveryCharge(){
+                    document.getElementById("add").innerHTML=20;
+
+                }
+
+                function racketQuantity(){
+                    let racket=document.getElementById("quantity1");
+                    let e = racket.value;
+                    document.getElementById("demo1").innerHTML=e;
+                    var total_1 =e*100;
+                    document.getElementById("total_1").innerHTML=total_1;
+                    
+                }
+                
+
+                function shutterQuantity(){
+                    let racket=document.getElementById("quantity2");
+                    let e = racket.value;
+                    document.getElementById("demo2").innerHTML=e;
+                    var total_2 =e*10;
+                    document.getElementById("total_2").innerHTML=total_2;
+                   
+                    
+                }
+
+                function shirtQuantity(){
+                    let racket=document.getElementById("quantity3");
+                    let e = racket.value;
+                    document.getElementById("demo3").innerHTML=e;
+                    var total_3 =e*30;
+                    document.getElementById("total_3").innerHTML=total_3;
+                    
+                    
+                    
+                }
+                function shoesQuantity(){
+                    let racket=document.getElementById("quantity4");
+                    let e = racket.value;
+                    document.getElementById("demo4").innerHTML=e;
+                    var total_4 =e*75;
+                    document.getElementById("total_4").innerHTML=total_4;
+                    
+                }
+                function shortQuantity(){
+                    let racket=document.getElementById("quantity5");
+                    let e = racket.value;
+                    document.getElementById("demo5").innerHTML=e;
+                    var total_5 =e*25;
+                    document.getElementById("total_5").innerHTML=total_5;
+                   
+
+                }
+                function gripQuantity(){
+                    let racket=document.getElementById("quantity6");
+                    let e = racket.value;
+                    document.getElementById("demo6").innerHTML=e;
+                    var total_6 =e*5;
+                    document.getElementById("total_6").innerHTML=total_6;
+                   
+
+                }
+                function swimshortQuantity(){
+                    let racket=document.getElementById("quantity7");
+                    let e = racket.value;
+                    document.getElementById("demo7").innerHTML=e;
+                    var total_7 =e*25;
+                    document.getElementById("total_7").innerHTML=total_7;
+                   
+
+                }
+                function goggleQuantity(){
+                    let racket=document.getElementById("quantity8");
+                    let e = racket.value;
+                    document.getElementById("demo8").innerHTML=e;
+                    var total_8 =e*10;
+                    document.getElementById("total_8").innerHTML=total_8;
+                   
+
+                }
+                function capQuantity(){
+                    let racket=document.getElementById("quantity9");
+                    let e = racket.value;
+                    document.getElementById("demo9").innerHTML=e;
+                    var total_9 =e*5;
+                    document.getElementById("total_9").innerHTML=total_9;
+                   
+
+                }
+                function batQuantity(){
+                    let racket=document.getElementById("quantity10");
+                    let e = racket.value;
+                    document.getElementById("demo10").innerHTML=e;
+                    var total_10 =e*150;
+                    document.getElementById("total_10").innerHTML=total_10;
+                   
+
+                }
+                function helmentQuantity(){
+                    let racket=document.getElementById("quantity11");
+                    let e = racket.value;
+                    document.getElementById("demo11").innerHTML=e;
+                    var total_11 =e*80;
+                    document.getElementById("total_11").innerHTML=total_11;
+                   
+
+                }
+                function glovesQuantity(){
+                    let racket=document.getElementById("quantity12");
+                    let e = racket.value;
+                    document.getElementById("demo12").innerHTML=e;
+                    var total_12 =e*40;
+                    document.getElementById("total_12").innerHTML=total_12;
+                   
+
+                }
+                function tracketQuantity(){
+                    let racket=document.getElementById("quantity13");
+                    let e = racket.value;
+                    document.getElementById("demo13").innerHTML=e;
+                    var total_13 =e*75;
+                    document.getElementById("total_13").innerHTML=total_13;
+                   
+
+                }
+                function tballQuantity(){
+                    let racket=document.getElementById("quantity14");
+                    let e = racket.value;
+                    document.getElementById("demo14").innerHTML=e;
+                    var total_14 =e*80;
+                    document.getElementById("total_14").innerHTML=total_14;
+                   
+
+                }
+                function kitQuantity(){
+                    let racket=document.getElementById("quantity15");
+                    let e = racket.value;
+                    document.getElementById("demo15").innerHTML=e;
+                    var total_15 =e*40;
+                    document.getElementById("total_15").innerHTML=total_15;
+                   
+
+                }
+                
+                
+
+
+                function reset(){
+                    document.getElementById("demo1").innerHTML=0;
+                    document.getElementById("demo2").innerHTML=0;
+                    document.getElementById("demo3").innerHTML=0;
+                    document.getElementById("demo4").innerHTML=0;
+                    document.getElementById("demo5").innerHTML=0;
+                    document.getElementById("demo6").innerHTML=0;
+                    document.getElementById("demo7").innerHTML=0;
+                    document.getElementById("demo8").innerHTML=0;
+                    document.getElementById("demo9").innerHTML=0;
+                    document.getElementById("demo10").innerHTML=0;
+                    document.getElementById("demo11").innerHTML=0;
+                    document.getElementById("demo12").innerHTML=0;
+                    document.getElementById("demo13").innerHTML=0;
+                    document.getElementById("demo14").innerHTML=0;
+                    document.getElementById("demo15").innerHTML=0;
+                    document.getElementById("total_1").innerHTML=0;
+                    document.getElementById("total_2").innerHTML=0;
+                    document.getElementById("total_3").innerHTML=0;
+                    document.getElementById("total_4").innerHTML=0;
+                    document.getElementById("total_5").innerHTML=0;
+                    document.getElementById("total_6").innerHTML=0;
+                    document.getElementById("total_7").innerHTML=0;
+                    document.getElementById("total_8").innerHTML=0;
+                    document.getElementById("total_9").innerHTML=0;
+                    document.getElementById("total_10").innerHTML=0;
+                    document.getElementById("total_11").innerHTML=0;
+                    document.getElementById("total_12").innerHTML=0;
+                    document.getElementById("total_13").innerHTML=0;
+                    document.getElementById("total_14").innerHTML=0;
+                    document.getElementById("total_15").innerHTML=0;
+                    document.getElementById("add").innerHTML=0;
+
+                    
+                }
+
+                
+                
+
+                
+
+
+
+                    
+
+            </script>
+
+            
+            
+            
+
+    
+
+    </body>
+
+</html>

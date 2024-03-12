@@ -1,0 +1,33 @@
+.page_editor{
+    text-align: center;
+    font-size: 20px;
+    margin:0px 20px 0px 20px;
+    background-color: #cafaca;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    padding: auto;
+}
+.top{
+    text-align: center;
+    font-size: 20px;
+    margin:0px 20px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_content{
+    text-align: center;
+    font-size: 20px;
+    margin:0px 20px 0px 20px;
+    background-color: #cafaca;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.page-editor-content .page_editor p{
+    border: 5px solid #cafaca;
+    background-color: #cafaca;
+}
+.page-editor-content p{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}

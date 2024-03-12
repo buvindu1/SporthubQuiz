@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="Stylesheet" href="checkout.css">
+
+    </head>
+
+    <body>
+
+        <div class="div1">
+
+            <h3 class="p1"> Order summary<span class="span1"><select >
+                <option value="English" >English</option>
+                <option value="Russian">Russian</option>
+                <option value="China">China</option>
+            </select> </span></h3>
+
+            <p class="p1"><strong>Reference<span style="margin-left: 30px;">:</span> </strong><span style="margin-left: 100px;">124490234500022</span></p>
+            <p class="p1"><strong>Description<span style="margin-left: 20px;">:</span></strong><span style="margin-left: 100px;">make payment</span>    </p>
+            <p class="p1"><strong>Amount<span style="margin-left: 42px;">:</span></strong></p>
+
+        </div >
+
+    <div class="div1">
+        <div class="p1">
+            <h3>Payment details<span class="span1"><img src="images\download.png" alt="visacard" width="50px" height="30px"</span></h3>
+            <p><span style="color: red;">*</span> indicates requires feilds</p>
+        </div>
+
+        <form action="mailto:chamithnethsara111@gmail.com" name="form" onsubmit="validateform()" >
+
+            <div class="div2">
+                <div>   
+                
+                    <label for="cardnumber">Card number<span style="color: red;">*</span></label><br>
+                    <input type="text" name="cardnumber" size="40" placeholder="7294-5678-9123-1233" required>
+                
+                </div>
+                <div>
+                
+                    <label for="cardname">Card holder's name<span style="color: red;">*</span></label><br>
+                    <input type="text" name="cardname" size="40" placeholder="Card holder's name" required>
+                
+                </div>
+            </div>
+
+                <br>
+
+            <div class="div2">
+                <div>   
+                    
+                        <label for="expiredate">Expiry Date<span style="color: red;">*</span></label><br>
+                        <input type="text" name="expiredate" size="2"  placeholder="MM" required> &nbsp;&nbsp;<strong>-</strong>&nbsp;&nbsp;
+                        <input type="text" name="expiredate" size="2"  placeholder="DD" required>
+                    
+                </div>
+
+                <div class="div3">   
+                        <div>
+                        <label for="securitycode">Security Code<span style="color: red;">*</span></label><br>
+                        <input type="text" name="securitycode"  placeholder="201"  required>
+                        </div>    
+                        <img src="images\download (1).jpeg" alt="card" height="60" width="90">
+                    
+                </div>
+                
+                
+            </div>
+            
+
+            <br>
+            <br>
+
+            <div class="div2">
+
+                
+
+                <div>
+                    <label><strong>Billing Address</strong></label>
+                    <input type="text" name="bill_address" size="40">
+                </div>
+
+                <div>
+                    <label><strong>Contact details</strong></label> <br>
+                    <input type="text" name="contact" size="40">
+                </div>
+                
+
+                <br>
+                <div>
+                    <a href="addresspage.html"> <input class="ho2" type="button" value="edit"></a>
+                </div>
+                <br>
+
+                <div class="lstdiv">
+                    <a href="buyproducts page.html"><input class="ho2" type="button" value="Cancel"></a>
+                    <input class="ho1" type="submit" value="Make payment"  >
+                    
+                </div>
+                <br>
+
+        </form>
+    </div>        
+
+        
+    
+
+    <div class="lastdiv">
+        <p><strong>Page editor</strong></p>
+        <a href="#"><img src="images\images.png" alt="logo" width="40px" height="40px"></a>
+    </div> 
+
+    <script>
+        
+
+        function validateform(){
+                alert("Payment Succsessfully ");
+        }
+
+    </script>  
+
+
+    
+    
+        
+
+
+    </body>
+</html>

@@ -1,0 +1,331 @@
+/*Common css*/
+.menu-content li {
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    padding-right: 17px;
+    padding-left: 17px;
+
+}
+
+.menu-content a {
+    padding: 0px 0px 15px 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #343334;
+}
+
+.menu-content li.active {
+    border-bottom: 3px solid #515055;
+}
+
+.menu-content {
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #d4d4d4;
+     color: black;
+}
+.menu-content_gallery{
+     background-color: white;
+
+}
+
+
+
+/*end*/
+.borderImage {
+    margin-left: 0px;
+    width: 1520px;
+    height: auto;
+
+}
+
+.borderImageDiv {
+    overflow: hidden;
+}
+
+.img1 {
+    height: 400px;
+    width: 280px;
+    margin-top: -70px;
+    margin-left: 1200px;
+}
+
+.img2 {
+    height: 300px;
+    width: 450px;
+}
+
+.img3 {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+
+.heading2 {
+    margin-top: -300px;
+    margin-left: 0px;
+}
+
+.div1 {
+    width: 1150px;
+    text-align: justify;
+}
+
+.div2 {
+    width: 1150px;
+    text-align: justify;
+}
+
+.div3 {
+    width: 1150px;
+    text-align: justify;
+}
+
+.div4 {
+    width: 1150px;
+    text-align: justify;
+}
+
+
+.button2 {
+    stroke: black;
+    stroke-width: 5px;
+    fill: yellow;
+}
+
+.buttonMap {
+    stroke: purple;
+    stroke-width: 5px;
+    fill: yellow;
+}
+
+.sitemap text {
+    fill: purple;
+
+}
+
+.buttonMap text {
+    fill: black;
+}
+
+.line {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.button:hover circle {
+    stroke: red;
+}
+
+.button:hover text {
+    fill: red;
+}
+
+.home {
+    stroke: green;
+    stroke-width: 4;
+    fill: yellow;
+}
+
+.text1 text {
+    font-size: 50px;
+    fill: black;
+}
+
+.sitemapBody {
+    background-image: url(sitemapbackground.jpg);
+    background-size: cover;
+}
+
+
+.galleryHeader {
+    text-align: center;
+}
+
+.gallerydiv {
+    margin-top: -20px;
+}
+
+.img-container,
+.img-container1,
+.img-container2,
+.img-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-item {
+    position: relative;
+    margin: 20px;
+}
+
+.img-item img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    max-width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border-radius: 6px;
+}
+
+.img-item img:hover {
+    cursor: pointer;
+}
+
+.img-text {
+    width: 523px;
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    border-radius: 6px;
+
+    padding: 10px;
+    z-index: 2;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 80%;
+}
+
+.img-item:hover .img-text {
+    display: block;
+    cursor: pointer;
+}
+
+.img-item .img-text img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+    border-radius: 6px;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    width: 100px;
+
+    margin-top: -10px;
+    position: absolute;
+
+    border-radius: 6px;
+
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4:hover {
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    margin-left: 1200px;
+    margin-top: -80px;
+
+
+}
+
+.light {
+
+    background-color: white;
+    color: black;
+
+}
+
+.light .img-text {
+    background-color: #ffffcc;
+    color: black;
+}
+
+.btn2 {
+    background-color: #00ABE4;
+    color: white;
+    margin-left: 1300px;
+    margin-top: -80px;
+}
+
+.btn3 {
+    background-color: #2D283E;
+    color: #802BB1;
+    margin-left: 1100px;
+    margin-top: -80px;
+
+}
+
+.btn4 {
+    margin-left: 1000px;
+    margin-top: -80px;
+}
+
+.roundBtn1,
+.roundBtn2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.roundBtn1,
+.roundBtn2:hover {
+    cursor: pointer;
+
+}
+
+.roundBtn1 {
+    font-size: x-large;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -20px;
+}
+
+.roundBtn2 {
+    font-size: large;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -75px;
+
+}
+
+.editorLink {
+    color: white;
+}
+
+.editorLinkB {
+    color: black;
+}
+
+.pageEditorh1 {
+    text-align: center;
+}
+
+.pageEditorDiv2 {
+    text-align: center;
+    background-color: #cafaca;
+
+
+}
+
+.editText {
+    text-align: center;
+}
+
+.pageEditorH1 {
+    background-color: #cafaca;
+
+}
+#menu{
+    background-color: #e9e7e7d6;
+    color: black;
+}

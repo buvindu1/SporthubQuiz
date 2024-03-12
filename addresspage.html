@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>address page</title>
+        <style>
+
+            .one{background-color: rgba(128, 128, 128, 0.129); padding-top: 10px;padding-left: 30px;}
+            .two{padding-left: 10px;}
+            .thr{margin-left: 80px;}
+            .fr{margin-left: 75.5px;}
+            .fi{margin-left: 61px;}
+            .six{margin-left: 17.5px;}
+            .lst{margin-left: 90px;}
+
+        </style>
+    </head>
+
+    <body>
+
+        <h3>Billing Address</h3><br>
+        <div class="one">
+        <form action="mailto:chamithnethsara111@gmail.com" name="form" onsubmit="return validateform()">
+            
+            <label>Address 1</label>
+            <input class="thr" type="text" name="add1"><br><br>
+            
+            <label>Address 2</label>
+            <input class="thr" type="text" name="add2"><br><br>
+
+            <label>Address 3</label>
+            <input class="thr" type="text" name="add3"><br><br>
+
+            <label>Town City</label>
+            <input class="fr" type="text" name="city"><br><br>
+
+            <label>State/Region</label>
+            <input class="fi" type="text" name="state"><br><br>
+
+            <label>Postalcode/Zipcode</label>
+            <input class="six" type="text" name="code"><br><br>
+
+            <label>Country</label>
+            <input class="lst" type="text" name="country">
+        
+           
+        </div>
+        <br>
+        <br>
+
+        <h3>Contact details</h3>
+        <div class="one">
+            
+
+                <label>Phone number</label>&nbsp;&nbsp;
+                <input type="text" name="phone"><br><br>
+
+                <label>Email address</label>&nbsp;&nbsp;
+                <input type="email" name="email"><br><br>
+
+         
+            
+            
+        </div>
+        <br>
+        <div>
+            <a href="C:\Users\Sathmi\Desktop\IIT CAMPUS\HTML CW EQUIPMENTS\CW\checkout.html"><input type="button" value="Cancel" ></a>
+            <input type="submit" value="Submit" style="margin-left: 10px;" >
+        </form>    
+        </div>
+
+
+        <script>
+
+            function validateform(){
+                let add1 = document.forms["form"]["add1"].value;
+                if(add1==""){
+                    alert("fill adress 1");
+                    return false;
+                }
+
+                let city = document.forms["form"]["city"].value;
+                if(city==""){
+                    alert("city must be filled out");
+                    return false;
+                }
+
+                let state = document.forms["form"]["state"].value;
+                if(state==""){
+                    alert("state must be filled out");
+                    return false;
+                }
+
+                let code = document.forms["form"]["code"].value;
+                if(code==""){
+                    alert("code must be filled out");
+                    return false;
+                }
+
+                let country = document.forms["form"]["country"].value;
+                if(country==""){
+                    alert("country must be filled out");
+                    return false;
+                }
+
+                let phone = document.forms["form"]["phone"].value;
+                if(phone==""){
+                    alert("phone number must be filled out");
+                    return false;
+                }
+                let email = document.forms["form"]["email"].value;
+                if(email==""){
+                    alert("email must be filled out");
+                    return false;
+                }
+            }
+
+        </script>
+        
+    </body>
+
+</html>

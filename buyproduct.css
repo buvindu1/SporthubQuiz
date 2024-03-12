@@ -1,0 +1,44 @@
+
+.div1{background-color: rgb(250, 255, 185);text-align: center;margin-left: 200px;margin-right: 200px;}
+
+.div4{justify-content:space-between;display: flex;padding-top: 50px;padding-right: 35px;padding-left: 30px;}
+
+.rr{justify-content: space-between;display: flex;padding-right: 600px;padding-left: 30px;}
+
+.div2{padding-left: 250px;}
+.div3{padding-left: 1000px;}
+
+.inputbutton{height: 50px; width: 200px;border:solid gainsboro;}
+
+.inputbutton:hover{background-color: #3e8e41;color: white;border-color: white;}
+
+body{background-color:whitesmoke;}
+
+.div5{background-color:rgb(29, 182, 190);width: 300px;height: 400px;border-radius: 10px;}
+
+.align{justify-content: center;display: flex;padding-top: 10px;}
+
+.www{justify-content:space-between;display: flex;padding-top: 50px;padding-right: 430px;padding-left: 30px;}
+
+.one{justify-content: space-between;display: flex;}
+
+.red{color: red;}
+.div5:hover{border:solid royalblue;}
+
+.menu-content li {
+
+        list-style: none;
+        display: inline-block;
+        font-size: 17px;
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+
+.menu-content {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.active:hover{background-color: gray;}

@@ -1,0 +1,202 @@
+/* Rusith start */
+body {
+    font-family: sans-serif;
+}
+
+.content.gray {
+    background-color: #f8f8f8;
+}
+
+.menu-content li {
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    padding-right: 17px;
+    padding-left: 17px;
+}
+
+.menu-content {
+    text-align: center;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.menu-content a {
+    padding: 0px 0px 15px 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #343334;
+}
+
+.menu-content li.active {
+    border-bottom: 3px solid #515055;
+}
+
+.topics {
+    width: 100%;
+    display: inline-block;
+    padding: 71px 0px 0px 0px;
+}
+
+.topics .sport {
+    width: 50%;
+    float: left;
+}
+
+.topics .sport img {
+    width: 100%;
+    height: auto;
+}
+
+.topics .sport .card {
+    padding: 5px 35px 28px;
+}
+
+.topics .sport .card a {
+    text-decoration: none;
+}
+
+.topics .sport .card a .image-content {
+    max-height: 50%;
+    overflow: hidden;
+}
+
+.topics .sport .card a p {
+    font-size: 20px;
+    color: black;
+    margin: 0px 0px 15px;
+}
+
+.topics .image {
+    width: 100%;
+}
+
+.topics .topic-image {
+    max-height: 70%;
+    overflow: hidden;
+}
+
+.topics .image1 {
+    width: 200px;
+    height: auto;
+}
+
+.input-item {
+    float: left;
+}
+
+.input-list-content {
+    display: inline-block;
+}
+
+.input-item input {
+    width: 100%;
+}
+
+.input-item label {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 3px 3px 0px 5px;
+}
+
+.mid-content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.thankyou h1 {
+    text-align: left;
+    color: blue;
+}
+
+.how-did-we-do h1 {
+    color: #4c4cff;
+    text-align: left;
+}
+
+.comment-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 14px 0px #888888;
+    padding: 26px 26px;
+    margin: 30px 0px;
+    border-radius: 4px;
+}
+
+.comment-card p {
+    text-align: left;
+}
+
+.comment-card select {
+    width: 100%;
+    height: 47px;
+}
+
+.comment-card textarea {
+    width: 100%;
+}
+
+.button-submit input {
+    background: green;
+    color: white;
+    box-shadow: none;
+    border: navajowhite;
+    height: 37px;
+    width: 104px;
+}
+
+.error-card {
+    background-color: #d14300;
+    box-shadow: 0px 0px 14px 0px #888888;
+    padding: 14px 26px;
+    margin: 30px 0px;
+    border-radius: 4px;
+    color: white;
+    text-align: left;
+}
+
+.error-card.hidden{
+    display: none;
+}
+
+.comment-card.error {
+    border: 1px solid red;
+}
+.page-editor-content .page_editor p {
+    
+    border: 5px solid #cafaca;
+    background-color: #cafaca;   
+   
+}
+.page-editor-content p{
+    text-align: center;
+    font-size: 28px;  
+    margin: 0px 20px 0px 20px;
+
+  
+}
+
+.page_editor {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    background-color: #cafaca;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.main_content {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+    background-color: #cafaca;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+/* Rusith End */
